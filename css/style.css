@@ -126,9 +126,21 @@ a {
     font-weight: 600;
     margin-top: 30px;
     margin-bottom: 140px;
+    position: relative;
 }
 
-.bannerContain a{
+.bannerContain h1::after {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 4px;
+    background: #fff;
+    top: 40px;
+    left: 415px;
+
+}
+
+.bannerContain a {
     font-size: 16px;
     font-weight: 400;
     padding: 10px 15px;
@@ -137,7 +149,7 @@ a {
     margin-bottom: 300px;
 }
 
-.bannerIcons{
+.bannerIcons {
     display: flex;
     align-items: center;
     column-gap: 20px;
