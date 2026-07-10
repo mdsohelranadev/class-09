@@ -1,0 +1,148 @@
+/* all common css start */
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* all common css end */
+
+
+
+
+/* headerPart Start */
+
+#headerPart {
+    padding: 50px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logowithcontain {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 15%;
+}
+
+.manu {
+    width: 70%;
+}
+
+.icons {
+    width: 15%;
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    column-gap: 30px;
+}
+
+.exit {
+    display: flex;
+    column-gap: 5px;
+}
+
+.exit span {
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.logowithcontain {
+    display: flex;
+    align-items: center;
+}
+
+.manu ul {
+    display: flex;
+    column-gap: 35px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.manu ul a {
+    color: #ddd;
+}
+
+/* headerPart End */
+
+
+/* bannerPart Start */
+#bannerPart {
+    padding-top: 340px;
+    padding-bottom: 100px;
+    background: url(../images/banner\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bannerContain {
+    color: #fff;
+    /* margin-top  : 280px; */
+    /* margin-bottom:  ; */
+}
+
+.bannerContain h2 {
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.bannerContain h1 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 140px;
+}
+
+.bannerContain a{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 15px;
+    color: #000;
+    background: #ffffff;
+    margin-bottom: 300px;
+}
+
+.bannerIcons{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    font-size: 36px;
+
+}
+
+/* bannerPart End */
