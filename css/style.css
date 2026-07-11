@@ -128,7 +128,6 @@ a {
     margin-bottom: 140px;
     position: relative;
 }
-
 .bannerContain h1::after {
     content: "";
     position: absolute;
@@ -137,7 +136,6 @@ a {
     background: #fff;
     top: 40px;
     left: 415px;
-
 }
 
 .bannerContain a {
@@ -154,7 +152,66 @@ a {
     align-items: center;
     column-gap: 20px;
     font-size: 36px;
-
 }
 
 /* bannerPart End */
+
+
+
+/* about Section Start */
+
+#aboutSection{
+    background: #121212;
+
+}
+.mainContain{
+    padding: 40px 0px 80px;
+}
+.contain{
+
+
+}
+.aboutUs{
+    font-size: 38px ;
+    font-weight: 600;
+    color: #fff;
+}
+.aboutUs h2{
+    line-height: 65px;
+}
+.image{
+    display: flex;
+    column-gap: 40px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    /* justify-content: space-between; */
+}
+.text{
+    color: #fff;
+}
+.text h2{
+    font-size: 27px;
+    font-weight: 600;
+}
+.text ul li{
+    font-size: 18px;
+    font-weight: 400;
+    /* font-family: Barlow Condensed; */
+    /* color: red; */
+    line-height:30px;
+}
+.text ul{
+    margin: 18px 0;
+}
+.text p{
+    font-size:18px ;
+    font-weight: 400;
+    line-height: 20px;
+}
+.text a{
+    padding: 8px 12px;
+    background: #fff;
+    color: #000;
+    margin-top: 30px;
+}
+/* about Section End */
