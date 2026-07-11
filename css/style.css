@@ -269,7 +269,6 @@ a {
     column-gap: 40px;
     margin-top: 70px;
     margin-bottom: 50px;
-    /* justify-content: space-between; */
 }
 
 .text {
@@ -285,7 +284,6 @@ a {
     font-size: 18px;
     font-weight: 400;
     /* font-family: Barlow Condensed; */
-    /* color: red; */
     line-height: 30px;
 }
 
