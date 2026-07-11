@@ -95,6 +95,27 @@ a {
 
 .manu ul a {
     color: #ddd;
+    position: relative;
+}
+
+.manu ul a::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: red;
+    bottom: 0;
+    left: 0px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.manu ul a:hover::before {
+    color: green;
+    background: red;
+    opacity: 1;
+
 }
 
 /* headerPart End */
@@ -153,6 +174,67 @@ a {
     align-items: center;
     column-gap: 20px;
     font-size: 36px;
+}
+
+.facebook {
+    position: relative;
+}
+
+.facebook span {
+    position: absolute;
+    top: 8px;
+    left: -10px;
+    font-size: 20px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.facebook span:hover{
+    opacity: 1;
+    position:absolute;
+    top: -25px;
+    left: -10px;
+    color: #ff0000;
+    /* background: green; */
+}
+
+.linkedin {
+    position: relative;
+}
+
+.linkedin span {
+    position: absolute;
+    top: -25px;
+    left: -5px;
+    font-size: 20px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.twitter {
+    position: relative;
+}
+
+.twitter span {
+    position: absolute;
+    top: -25px;
+    left: -5px;
+    font-size: 20px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.instragram {
+    position: relative;
+}
+
+.instragram span {
+    position: absolute;
+    top: -25px;
+    left: -5px;
+    font-size: 20px;
+    opacity: 0;
+    transition: 0.4s;
 }
 
 /* bannerPart End */
@@ -241,6 +323,7 @@ a {
 .review1 p {
     font-size: 18px;
     font-weight: 300px;
+    margin-top: 35px;
 }
 
 .review1 {
@@ -260,6 +343,7 @@ a {
 .review2 p {
     font-size: 18px;
     font-weight: 300px;
+    margin-top: 35px;
 }
 
 .review2 {
@@ -279,6 +363,7 @@ a {
 .review3 p {
     font-size: 18px;
     font-weight: 300px;
+    margin-top: 35px;
 }
 
 .review3 {
@@ -298,6 +383,7 @@ a {
 .review4 p {
     font-size: 18px;
     font-weight: 300px;
+    margin-top: 35px;
 }
 
 .review4 {
@@ -306,6 +392,5 @@ a {
     padding: 45px 100px;
     border-radius: 0 60px 0 60px;
 }
-
 
 /* about Section End */
