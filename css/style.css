@@ -35,6 +35,12 @@ a {
     display: inline-block;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* all common css end */
 
 
@@ -49,6 +55,7 @@ a {
     left: 0;
     width: 100%;
     background: gray;
+    z-index: 2;
 }
 
 .logowithcontain {
@@ -190,9 +197,9 @@ a {
     transition: 0.4s;
 }
 
-.facebook span:hover{
+.facebook span:hover {
     opacity: 1;
-    position:absolute;
+    position: absolute;
     top: -25px;
     left: -10px;
     color: #ff0000;
@@ -397,24 +404,23 @@ a {
 
 
 /* games section start */
-#gamesPart{
+#gamesPart {
     background: #141414;
 }
 
-.gamesFlex{
+.gamesFlex {
     display: flex;
-    align-items: center ;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 70px;
-    min-height: 805px;
-    /* width: 100%; */
+    padding-bottom: 70px;
 }
 
-.gamesLeft{
+.gamesLeft {
     position: relative;
     width: 50%;
 
 }
+
 .leftBg {
     position: absolute;
     clip-path: polygon(20% 0%, 98% 0%, 80% 100%, 2% 100%);
@@ -424,45 +430,183 @@ a {
     top: -47px;
     left: 44px;
 }
+
 .gamesLeft img {
     position: absolute;
     top: -219px;
     left: 135px;
     z-index: 1;
 }
-.gamesRight{
+
+.gamesRight {
     width: 50%;
     margin-top: 125px;
     text-align: end;
 }
-.gamesRight img{
-    
+
+.gamesRight img {
+
     opacity: 0.7;
 }
-.gamesRightpart h3{
+
+.gamesRightpart h3 {
     margin-bottom: 90px;
     color: #fff;
-    line-height:50px;
+    line-height: 50px;
     font-size: 27px;
     letter-spacing: 7%;
     font-family: "Barlow Condensed", sans-serif;
 }
+
 /* games section end */
 
 
 /* livesscore boardpart start */
 
+#livescorePart {
+    background: #0c0c0c;
+}
 
-#livescoerPart{
-    background: #c53535;    
+.boardPart {
+    /* display: flex; */
+    padding: 100px 0 90px 0;
 }
-.boardPart{
-    display: flex;
-}
-.boardText h3{
+
+.boardText h3 {
     color: #fff;
     font-size: 38px;
     font-weight: 600;
     line-height: 50px;
+    letter-spacing: 7%;
 }
-/* livesscore boardpart end */
+
+.liveGames {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin-bottom: 120px;
+    /* width: 100%; */
+
+}
+
+.previous h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 9%;
+    margin-top: 65px;
+    padding-bottom: 50px;
+    color: #fff;
+    font-family: "Barlow Condensed", sans-serif;
+
+
+}
+
+.teamName1 {
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+    row-gap: 30px;
+}
+
+.teamDelta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #212121;
+    clip-path: polygon(0% 0%, 100% 0%, 88% 100%, 0% 100%);
+    width: 430px;
+    height: 115px;
+    padding-right: 60px;
+    /* padding: 0 20px; */
+}
+
+.teamDelta h3 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.scorePoint p {
+    font-size: 40px;
+    font-weight: 500px;
+}
+
+
+.teamAlpha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #212121;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 12% 100%);
+    width: 430px;
+    height: 115px;
+    padding-left: 60px;
+}
+
+.teamAlpha h3 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+/* .teamDevile{
+    display: flex;
+    align-items: center;
+    background: red;
+    width: 320px;
+} */
+
+
+.teamName2 {
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60PX;
+    /* flex-direction: column; */
+    row-gap: 30px;
+}
+
+.teamDevile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #212121;
+    clip-path: polygon(0% 0%, 100% 0%, 88% 100%, 0% 100%);
+    width: 430px;
+    height: 115px;
+    padding-right: 60px;
+    /* padding: 0 20px; */
+}
+
+.teamDevile h3 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.scorePoint p {
+    font-size: 40px;
+    font-weight: 500px;
+}
+
+
+.teamNinja {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #212121;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 12% 100%);
+    width: 430px;
+    height: 115px;
+    padding-left: 60px;
+}
+
+.teamNinja h3 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Barlow Condensed", sans-serif;
+}
