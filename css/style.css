@@ -610,3 +610,125 @@ img {
     font-weight: 500;
     font-family: "Barlow Condensed", sans-serif;
 }
+
+/* gamesSele section start */
+
+#gamesSele {
+    background: #191919
+}
+
+.selepartsection {
+    padding-bottom: 30px;
+
+}
+
+.selePart1 {
+    text-align: end;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Barlow Condensed", sans-serif;
+    color: #fff;
+
+}
+
+.seleCard {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.seleCard1 {
+    color: #fff;
+    padding-bottom: 65px;
+    /* width: 25%; */
+}
+
+.seleCard1 h2 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: mixed;
+    font-family: "Barlow Condiensed", sans-serif;
+    padding-top: 24px;
+    padding-bottom: 30px;
+}
+
+.seleCard1 p {
+    padding-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    letter-spacing: 10%;
+}
+
+.seleCard span {
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.seleCard1 span:nth-of-type(1) {
+    background: red;
+    padding: 5px;
+}
+
+.seleCard1 span:nth-of-type(2) {
+    color: #666;
+    padding: 0 8px;
+}
+
+.gameCatagory h3 {
+    color: #fff;
+    padding-bottom: 34px;
+    font-size: 20px;
+    font-weight: 500px;
+    font-family: "Barlow Condiensed", sans-serif;
+}
+
+.favouriteGames {
+    height: 450px;
+    width: 100%;
+    background: #212121;
+    display: flex;
+      padding: 40px 100px ;
+}
+.favouriteGametext{
+    width: 60%;
+}
+.favouriteGametext h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ff4655;
+    letter-spacing: 10%;
+    padding-bottom: 30px;
+}
+.favouriteGametext h2{
+     font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 50px;
+    font-family: "Barlow Condiensed", sans-serif;
+}
+.favouriteGametext p{
+     font-size: 16px;
+    font-weight: 600;
+    color: #666;
+    margin-top: 30px;
+    line-height: 30px;
+    letter-spacing: 10%;
+    width: 750px;
+}
+.favouriteGametext a{
+    height: 50px;
+    width: 128px;
+    background: #121212;
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+}
+.favouriteGameimage{
+    width: 40%;
+    /* display: flex; */
+}
+/* gamesSele section end */
