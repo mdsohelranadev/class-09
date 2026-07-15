@@ -4,7 +4,7 @@
     margin: 0;
     outline: none;
     box-sizing: border-box;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Oswald", sans-serif;
 
 }
 
@@ -622,15 +622,16 @@ img {
 
 }
 
-.selePart1 {
+.selePart1 h3 {
     text-align: end;
     padding-top: 100px;
     margin-bottom: 50px;
     font-size: 38px;
     font-weight: 600;
+    letter-spacing: 7%;
     font-family: "Barlow Condensed", sans-serif;
     color: #fff;
-
+    line-height: 60px;
 }
 
 .seleCard {
@@ -691,27 +692,31 @@ img {
     width: 100%;
     background: #212121;
     display: flex;
-      padding: 45px 100px ;
+    padding: 45px 100px;
 }
-.favouriteGametext{
+
+.favouriteGametext {
     width: 60%;
 }
-.favouriteGametext h3{
+
+.favouriteGametext h3 {
     font-size: 16px;
     font-weight: 500;
     color: #ff4655;
     letter-spacing: 10%;
     padding-bottom: 30px;
 }
-.favouriteGametext h2{
-     font-size: 36px;
+
+.favouriteGametext h2 {
+    font-size: 36px;
     font-weight: 600;
     color: #fff;
     line-height: 50px;
     font-family: "Barlow Condiensed", sans-serif;
 }
-.favouriteGametext p{
-     font-size: 16px;
+
+.favouriteGametext p {
+    font-size: 16px;
     font-weight: 600;
     color: #666;
     margin-top: 30px;
@@ -719,7 +724,8 @@ img {
     letter-spacing: 10%;
     width: 750px;
 }
-.favouriteGametext a{
+
+.favouriteGametext a {
     display: flex;
     justify-content: center;
     height: 50px;
@@ -731,44 +737,131 @@ img {
     border-radius: 5px;
     transition: 0.3s;
 }
-.favouriteGametext a:hover{
+
+.favouriteGametext a:hover {
     background: #3a3a3a;
     color: #c4c4c4;
 }
-.favouriteGameimage{
+
+.favouriteGameimage {
     width: 40%;
     display: flex;
-    justify-content:center ;
+    justify-content: center;
     position: relative;
 }
-.favouriteGameimage img:nth-of-type(1){
+
+.favouriteGameimage img:nth-of-type(1) {
     position: absolute;
     right: 130px;
-    top: 25px; 
+    top: 25px;
     z-index: ;
 }
+
 .favouriteGameimage img:nth-of-type(2) {
     position: absolute;
     right: 100px;
     top: 10px;
     z-index: 2;
 }
-.favouriteGameimage img:nth-of-type(3){
+
+.favouriteGameimage img:nth-of-type(3) {
     position: absolute;
-    right:40px;
-    top: -5 px; 
+    right: 40px;
+    top: -5 px;
     z-index: 3;
 }
+
 .favouriteGameimage img:nth-of-type(4) {
     position: absolute;
     right: 20px;
     top: 10px;
     z-index: 2;
-}   
-.favouriteGameimage img:nth-of-type(5){
+}
+
+.favouriteGameimage img:nth-of-type(5) {
     position: absolute;
     right: 0px;
-    top: 30px; 
+    top: 30px;
     z-index: 1;
 }
+
+/* gamesSele section end */
+
+
+
+/* gamesSele section start */
+
+#gamingAccesories {
+    background: #121212;
+}
+
+.gamingProduct h2 {
+    padding-top: 100px;
+    padding-bottom: 110px;
+    color: #fff;
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 7%;
+    line-height: 50px;
+
+}
+
+.gameproduct {
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+
+.controller {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background: #212121;
+    height: 465px;
+    width: 315px;
+    color: #fff;
+    margin-bottom: 90px;
+
+}
+
+.controller span {
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.controller h3 {
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.controller span a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ff4655;
+}
+
+#professetionalTeam{
+    background: #191919;
+}
+.professetionalTeamname h2 {
+    text-align: end;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Barlow Condiensed", sans-serif;
+    padding-top: 110px;
+    padding-bottom: 55px;
+}
+.professetionalSqude{
+    display: flex;
+    column-gap: 15px;
+}
+.professetionalTeamname1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
 /* gamesSele section end */
