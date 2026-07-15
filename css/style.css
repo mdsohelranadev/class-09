@@ -54,7 +54,7 @@ img {
     top: 0;
     left: 0;
     width: 100%;
-    background: gray;
+    background: rgb(49, 49, 49);
     z-index: 2;
 }
 
@@ -900,7 +900,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 25px;
+    /* margin-left: 25px; */
     /* text-align: center;
     align-items: center; */
 }
