@@ -863,5 +863,46 @@ img {
     flex-direction: column;
     row-gap: 25px;
 }
+.fristSqude{
+    position: relative;
+    color: #fff;
+}
+
+.fristsqudeText{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background:#25242438;
+    width: 100%;
+    height: 50%;
+}
+
+.fristSqude h4{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Barlow Condiensed", sans-serif;
+    padding-bottom: 18px;
+    padding-top: 45px;
+    padding-left:25px ;
+}
+.fristSqude p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+
+}
+.fristSqude a{
+    height: 32px;
+    width: 105px;
+    background: #ff4655;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    /* text-align: center;
+    align-items: center; */
+}
 
 /* gamesSele section end */
