@@ -1038,6 +1038,7 @@ img {
     font-weight: 600;
     /* margin-bottom: 40px; */
 }
+
 .faqtext p {
     /* position: absolute; */
     font-size: 16px;
@@ -1088,27 +1089,30 @@ img {
     color: #fff;
     /* margin-bottom: 40px; */
 }
-.faqredText{
-    color: #ff4655; 
+
+.faqredText {
+    color: #ff4655;
 }
 
-.faqtext{
+.faqtext {
     position: relative;
 }
+
 .faqtext p {
     position: absolute;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
     padding-left: 110px;
-    margin-top: -10px; 
+    margin-top: -10px;
     color: #666;
 }
+
 .main {
     position: relative;
 }
 
- .main::after {
+.main::after {
     content: "";
     position: absolute;
     height: 2px;
@@ -1133,11 +1137,11 @@ img {
 
 /* foodersection start */
 
-#fooderSection{
-    background:  #191919;
+#fooderSection {
+    background: #191919;
 }
 
-.subscribeSection{
+.subscribeSection {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1145,7 +1149,7 @@ img {
     background: #ff4655;
 }
 
-.subscribeSection h2{
+.subscribeSection h2 {
     font-size: 40px;
     font-weight: 600;
     font-family: "Barlow Condiensed", sans-serif;
@@ -1153,19 +1157,22 @@ img {
     width: 60%;
     color: #fff;
 }
-.subcribebutton{
+
+.subcribebutton {
     width: 40%;
     text-align: end;
     position: relative;
 }
-.subcribebutton input{
+
+.subcribebutton input {
     width: 410px;
     height: 40px;
     background: #fff;
     border-radius: 65px;
     border: none;
 }
-.subcribebutton button{
+
+.subcribebutton button {
     position: absolute;
     height: 40px;
     width: 117px;
@@ -1176,40 +1183,91 @@ img {
     border: none;
     font-size: 16px;
     font-weight: 500;
-     font-family: "Barlow Condiensed", sans-serif;
-     background: #191919;
-     color: #fff;
+    font-family: "Barlow Condiensed", sans-serif;
+    background: #191919;
+    color: #fff;
 }
 
-.fooderlastSection{
+.fooderlastSection {
     display: flex;
 
     padding-top: 40px;
 }
 
-.fooderLeft{
+.fooderLeft {
     width: 40%;
 }
-.foodercenterLeft{
+
+.foodercenterLeft {
     width: 20%;
 }
-.foodercenterRight{
+
+.foodercenterRight {
     width: 20%;
 }
-.fooderRight{
+
+.fooderRight {
     width: 20%;
 }
-.fooderlastSection img{
-padding-bottom: 40px;
+
+.fooderlastSection img {
+    padding-bottom: 40px;
 }
-.fooderLeft p{
+
+.fooderLeft p {
     color: #666;
     padding-bottom: 60px;
 
 }
-.fooderIcons i{
-    color: #fff;
 
+.fooderIcons i {
+    font-size: 50px;
+    color: #fff;
+    padding: 0px;
+}
+.foodercenterLeft{
+    padding-left: 70px;
+}
+.foodercenterLeft ul{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Barlow Condiensed", sans-serif;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.foodercenterLeftsection ul{
+    font-size: 16px;
+    font-weight: 400;
     
 }
+.foodercenterLeftsection ul li a{
+    padding-bottom: 40px;
+    color: #fff;
+}
+
+
+
+.foodercenterRight{
+    padding-left: 70px;
+}
+.foodercenterRight ul{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Barlow Condiensed", sans-serif;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.foodercenterRightsection ul{
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.foodercenterRightsection ul li a{
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+
+
+
 /* foodersection end */
