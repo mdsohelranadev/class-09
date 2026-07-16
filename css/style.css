@@ -85,7 +85,7 @@ img {
 }
 
 .exit span {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400px;
 }
 
@@ -164,8 +164,8 @@ img {
     width: 90px;
     height: 4px;
     background: #fff;
-    top: 40px;
-    left: 415px;
+    top: 47px;
+    left: 520px;
 }
 
 .bannerContain a {
@@ -843,9 +843,14 @@ img {
     color: #ff4655;
 }
 
-#professetionalTeam{
+#professetionalTeam {
     background: #191919;
 }
+
+.professetionalTeamname {
+    padding-bottom: 75px;
+}
+
 .professetionalTeamname h2 {
     text-align: end;
     font-size: 38px;
@@ -853,39 +858,45 @@ img {
     font-family: "Barlow Condiensed", sans-serif;
     padding-top: 110px;
     padding-bottom: 55px;
+    color: #fff;
+    line-height: 50px;
 }
-.professetionalSqude{
+
+.professetionalSqude {
     display: flex;
     column-gap: 15px;
 }
-.professetionalTeamname1{
+
+.professetionalTeamname1 {
     display: flex;
     flex-direction: column;
     row-gap: 25px;
 }
-.fristSqude{
+
+.fristSqude {
     position: relative;
     color: #fff;
 }
 
-.fristsqudeText{
+.fristsqudeText {
     position: absolute;
     left: 0px;
     bottom: 0px;
-    background:#25242438;
+    background: #25242438;
     width: 100%;
     height: 50%;
 }
 
-.fristSqude h4{
+.fristSqude h4 {
     font-size: 30px;
     font-weight: 600;
     font-family: "Barlow Condiensed", sans-serif;
     padding-bottom: 18px;
     padding-top: 45px;
-    padding-left:25px ;
+    padding-left: 25px;
 }
-.fristSqude p{
+
+.fristSqude p {
     font-size: 16px;
     font-weight: 400;
     padding-bottom: 25px;
@@ -893,16 +904,312 @@ img {
     padding-top: 15px;
 
 }
-.fristSqude a{
+
+.fristsqudeText a {
     height: 32px;
     width: 105px;
     background: #ff4655;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-left: 25px; */
-    /* text-align: center;
-    align-items: center; */
+    margin-left: 25px;
+}
+
+.secoundSqude {
+    position: relative;
+}
+
+
+.secoundsqudeText {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #25242438;
+    width: 100%;
+    height: 30%;
+}
+
+.secoundsqudeText span {
+    position: absolute;
+    left: 25px;
+    bottom: 35px;
+    color: #fff;
+}
+
+.thirdSqude {
+    position: relative;
+}
+
+.thirdsqudeText {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #25242438;
+    width: 100%;
+    height: 30%;
+}
+
+.thirdsqudeText span {
+    position: absolute;
+    left: 25px;
+    bottom: 35px;
+    color: #fff;
+}
+
+.forthSqude {
+    position: relative;
+}
+
+.forthsqudeText {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #25242438;
+    width: 100%;
+    height: 30%;
+}
+
+.forthsqudeText span {
+    position: absolute;
+    left: 25px;
+    bottom: 35px;
+    color: #fff;
 }
 
 /* gamesSele section end */
+
+
+
+
+/*  question and answer section start */
+
+#questionanswerPart {
+    background: #121212;
+    padding-bottom: 120px;
+}
+
+.questionAnswerhedertext h3 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 50px;
+    padding: 65px 0 120px 0;
+    color: #fff;
+
+}
+
+/* .questionAnswerqusetiontext{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
+.questionAnswer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border-bottom: 5px solid #d30e0e; */
+    /* column-gap: 120px; */
+}
+
+
+.questionAnswerqusetiontext1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* column-gap:  120px; */
+}
+
+.faq1 {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 40%;
+
+}
+
+.faqnumber {
+    display: flex;
+
+}
+
+
+.faqnumber h4 {
+    font-size: 22px;
+    font-weight: 600;
+    /* margin-bottom: 40px; */
+}
+.faqtext p {
+    /* position: absolute; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 110px;
+    left: 3;
+    top: -30px;
+
+}
+
+.questionAnswerqusetiontext2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 170px;
+    /* border-bottom: 2px solid #ff0000; */
+    /* column-gap:  120px; */
+}
+
+.faq1 {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 40%;
+
+}
+
+.faqnumber {
+    display: flex;
+
+}
+
+.faqnumber span {
+    padding: 15px 25px;
+    background: #ff4655;
+    margin-right: 40px;
+    font-size: 38px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Barlow Condiensed", sans-serif;
+}
+
+.faqnumber h4 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    /* margin-bottom: 40px; */
+}
+.faqredText{
+    color: #ff4655; 
+}
+
+.faqtext{
+    position: relative;
+}
+.faqtext p {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 110px;
+    margin-top: -10px; 
+    color: #666;
+}
+.main {
+    position: relative;
+}
+
+ .main::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #666;
+    left: 0;
+    top: 50%;
+}
+
+.main::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    background: #666;
+    left: 50%;
+    top: 0%;
+}
+
+/*  question and answer section end */
+
+
+/* foodersection start */
+
+#fooderSection{
+    background:  #191919;
+}
+
+.subscribeSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background: #ff4655;
+}
+
+.subscribeSection h2{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Barlow Condiensed", sans-serif;
+    padding: 40px 0;
+    width: 60%;
+    color: #fff;
+}
+.subcribebutton{
+    width: 40%;
+    text-align: end;
+    position: relative;
+}
+.subcribebutton input{
+    width: 410px;
+    height: 40px;
+    background: #fff;
+    border-radius: 65px;
+    border: none;
+}
+.subcribebutton button{
+    position: absolute;
+    height: 40px;
+    width: 117px;
+    border-radius: 65px;
+    right: 0px;
+    top: 0;
+    /* outline: none; */
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+     font-family: "Barlow Condiensed", sans-serif;
+     background: #191919;
+     color: #fff;
+}
+
+.fooderlastSection{
+    display: flex;
+
+    padding-top: 40px;
+}
+
+.fooderLeft{
+    width: 40%;
+}
+.foodercenterLeft{
+    width: 20%;
+}
+.foodercenterRight{
+    width: 20%;
+}
+.fooderRight{
+    width: 20%;
+}
+.fooderlastSection img{
+padding-bottom: 40px;
+}
+.fooderLeft p{
+    color: #666;
+    padding-bottom: 60px;
+
+}
+.fooderIcons i{
+    color: #fff;
+
+    
+}
+/* foodersection end */
