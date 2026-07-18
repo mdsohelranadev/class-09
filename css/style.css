@@ -1,1273 +1,1395 @@
-/* all common css start */
-* {
-    padding: 0;
-    margin: 0;
-    outline: none;
-    box-sizing: border-box;
-    font-family: "Oswald", sans-serif;
-
-}
-
-.container {
-    width: 1320px;
-    margin: 0 auto;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-    padding: 0;
-    line-height: 0.8;
-}
-
-ul,
-li {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-    display: inline-block;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-/* all common css end */
-
-
-
-
-/* headerPart Start */
-
-#headerPart {
-    padding: 50px 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: rgb(49, 49, 49);
-    z-index: 2;
-}
-
-.logowithcontain {
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    width: 15%;
-}
-
-.manu {
-    width: 70%;
-}
-
-.icons {
-    width: 15%;
-    color: #fff;
-    font-size: 25px;
-    display: flex;
-    column-gap: 30px;
-}
-
-.exit {
-    display: flex;
-    column-gap: 5px;
-}
-
-.exit span {
-    font-size: 15px;
-    font-weight: 400px;
-}
-
-.logowithcontain {
-    display: flex;
-    align-items: center;
-}
-
-.manu ul {
-    display: flex;
-    column-gap: 35px;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.manu ul a {
-    color: #ddd;
-    position: relative;
-}
-
-.manu ul a::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 3px;
-    background: red;
-    bottom: 0;
-    left: 0px;
-    border-radius: 5px;
-    opacity: 0;
-    transition: 0.4s;
-}
-
-.manu ul a:hover::before {
-    color: green;
-    background: red;
-    opacity: 1;
-
-}
-
-/* headerPart End */
-
-
-/* bannerPart Start */
-#bannerPart {
-    padding-top: 340px;
-    padding-bottom: 100px;
-    background: url(../images/banner\ 2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.bannerContain {
-    color: #fff;
-    /* margin-top  : 280px; */
-    /* margin-bottom:  ; */
-}
-
-.bannerContain h2 {
-    font-size: 27px;
-    font-weight: 400;
-}
-
-.bannerContain h1 {
-    font-size: 60px;
-    font-weight: 600;
-    margin-top: 30px;
-    margin-bottom: 140px;
-    position: relative;
-}
-
-.bannerContain h1::after {
-    content: "";
-    position: absolute;
-    width: 90px;
-    height: 4px;
-    background: #fff;
-    top: 47px;
-    left: 520px;
-}
-
-.bannerContain a {
-    font-size: 16px;
-    font-weight: 400;
-    padding: 10px 15px;
-    color: #000;
-    background: #ffffff;
-    margin-bottom: 300px;
-}
-
-.bannerIcons {
-    display: flex;
-    align-items: center;
-    column-gap: 20px;
-    font-size: 36px;
-}
-
-.facebook {
-    position: relative;
-}
-
-.facebook span {
-    position: absolute;
-    top: 8px;
-    left: -10px;
-    font-size: 20px;
-    opacity: 0;
-    transition: 0.4s;
-}
-
-.facebook span:hover {
-    opacity: 1;
-    position: absolute;
-    top: -25px;
-    left: -10px;
-    color: #ff0000;
-    /* background: green; */
-}
-
-.linkedin {
-    position: relative;
-}
-
-.linkedin span {
-    position: absolute;
-    top: -25px;
-    left: -5px;
-    font-size: 20px;
-    opacity: 0;
-    transition: 0.4s;
-}
-
-.twitter {
-    position: relative;
-}
-
-.twitter span {
-    position: absolute;
-    top: -25px;
-    left: -5px;
-    font-size: 20px;
-    opacity: 0;
-    transition: 0.4s;
-}
-
-.instragram {
-    position: relative;
-}
-
-.instragram span {
-    position: absolute;
-    top: -25px;
-    left: -5px;
-    font-size: 20px;
-    opacity: 0;
-    transition: 0.4s;
-}
-
-/* bannerPart End */
-
-
-
-/* about Section Start */
-
-#aboutSection {
-    background: #121212;
-
-}
-
-.mainContain {
-    padding: 40px 0px 80px;
-}
-
-.contain {}
-
-.aboutUs {
-    font-size: 38px;
-    font-weight: 600;
-    color: #fff;
-}
-
-.aboutUs h2 {
-    line-height: 65px;
-}
-
-.image {
-    display: flex;
-    column-gap: 40px;
-    margin-top: 70px;
-    margin-bottom: 50px;
-}
-
-.text {
-    color: #fff;
-}
-
-.text h2 {
-    font-size: 27px;
-    font-weight: 600;
-}
-
-.text ul li {
-    font-size: 18px;
-    font-weight: 400;
-    /* font-family: Barlow Condensed; */
-    line-height: 30px;
-}
-
-.text ul {
-    margin: 18px 0;
-}
-
-.text p {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 20px;
-}
-
-.text a {
-    padding: 8px 12px;
-    background: #fff;
-    color: #000;
-    margin-top: 30px;
-    border-radius: 5px;
-}
-
-.review {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    column-gap: 20px;
-}
-
-.review1 h3 {
-    font-size: 60px;
-    font-weight: 600;
-    display: inline-block;
-
-}
-
-.review1 p {
-    font-size: 18px;
-    font-weight: 300px;
-    margin-top: 35px;
-}
-
-.review1 {
-    color: #fff;
-    background: #212121;
-    padding: 45px 100px;
-    border-radius: 0 60px 0 60px;
-}
-
-.review2 h3 {
-    font-size: 60px;
-    font-weight: 600;
-    display: inline-block;
-
-}
-
-.review2 p {
-    font-size: 18px;
-    font-weight: 300px;
-    margin-top: 35px;
-}
-
-.review2 {
-    color: #fff;
-    background: #212121;
-    padding: 45px 100px;
-    border-radius: 0 60px 0 60px;
-}
-
-.review3 h3 {
-    font-size: 60px;
-    font-weight: 600;
-    display: inline-block;
-
-}
-
-.review3 p {
-    font-size: 18px;
-    font-weight: 300px;
-    margin-top: 35px;
-}
-
-.review3 {
-    color: #fff;
-    background: #212121;
-    padding: 45px 100px;
-    border-radius: 0 60px 0 60px;
-}
-
-.review4 h3 {
-    font-size: 60px;
-    font-weight: 600;
-    display: inline-block;
-
-}
-
-.review4 p {
-    font-size: 18px;
-    font-weight: 300px;
-    margin-top: 35px;
-}
-
-.review4 {
-    color: #fff;
-    background: #212121;
-    padding: 45px 100px;
-    border-radius: 0 60px 0 60px;
-}
-
-/* about Section End */
-
-
-/* games section start */
-#gamesPart {
-    background: #141414;
-}
-
-.gamesFlex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 70px;
-}
-
-.gamesLeft {
-    position: relative;
-    width: 50%;
-
-}
-
-.leftBg {
-    position: absolute;
-    clip-path: polygon(20% 0%, 98% 0%, 80% 100%, 2% 100%);
-    background: red;
-    height: 392px;
-    width: 658px;
-    top: -47px;
-    left: 44px;
-}
-
-.gamesLeft img {
-    position: absolute;
-    top: -219px;
-    left: 135px;
-    z-index: 1;
-}
-
-.gamesRight {
-    width: 50%;
-    margin-top: 125px;
-    text-align: end;
-}
-
-.gamesRight img {
-
-    opacity: 0.7;
-}
-
-.gamesRightpart h3 {
-    margin-bottom: 90px;
-    color: #fff;
-    line-height: 50px;
-    font-size: 27px;
-    letter-spacing: 7%;
-    font-family: "Barlow Condensed", sans-serif;
-}
-
-/* games section end */
-
-
-/* livesscore boardpart start */
-
-#livescorePart {
-    background: #0c0c0c;
-}
-
-.boardPart {
-    /* display: flex; */
-    padding: 100px 0 90px 0;
-}
-
-.boardText h3 {
-    color: #fff;
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 50px;
-    letter-spacing: 7%;
-}
-
-.liveGames {
-    display: flex;
-    align-items: center;
-    column-gap: 20px;
-    margin-bottom: 120px;
-    /* width: 100%; */
-
-}
-
-.previous h2 {
-    text-align: center;
-    font-size: 25px;
-    font-weight: 500;
-    letter-spacing: 9%;
-    margin-top: 65px;
-    padding-bottom: 50px;
-    color: #fff;
-    font-family: "Barlow Condensed", sans-serif;
-
-
-}
-
-.teamName1 {
-    color: #fff;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* flex-direction: column; */
-    row-gap: 30px;
-}
-
-.teamDelta {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #212121;
-    clip-path: polygon(0% 0%, 100% 0%, 88% 100%, 0% 100%);
-    width: 430px;
-    height: 115px;
-    padding-right: 60px;
-    /* padding: 0 20px; */
-}
-
-.teamDelta h3 {
-    font-size: 32px;
-    font-weight: 500;
-    font-family: "Barlow Condensed", sans-serif;
-}
-
-.scorePoint p {
-    font-size: 40px;
-    font-weight: 500px;
-}
-
-
-.teamAlpha {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #212121;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 12% 100%);
-    width: 430px;
-    height: 115px;
-    padding-left: 60px;
-}
-
-.teamAlpha h3 {
-    font-size: 32px;
-    font-weight: 500;
-    font-family: "Barlow Condensed", sans-serif;
-}
-
-/* .teamDevile{
-    display: flex;
-    align-items: center;
-    background: red;
-    width: 320px;
-} */
-
-
-.teamName2 {
-    color: #fff;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 60PX;
-    /* flex-direction: column; */
-    row-gap: 30px;
-}
-
-.teamDevile {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #212121;
-    clip-path: polygon(0% 0%, 100% 0%, 88% 100%, 0% 100%);
-    width: 430px;
-    height: 115px;
-    padding-right: 60px;
-    /* padding: 0 20px; */
-}
-
-.teamDevile h3 {
-    font-size: 32px;
-    font-weight: 500;
-    font-family: "Barlow Condensed", sans-serif;
-}
-
-.scorePoint p {
-    font-size: 40px;
-    font-weight: 500px;
-}
-
-
-.teamNinja {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #212121;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 12% 100%);
-    width: 430px;
-    height: 115px;
-    padding-left: 60px;
-}
-
-.teamNinja h3 {
-    font-size: 32px;
-    font-weight: 500;
-    font-family: "Barlow Condensed", sans-serif;
-}
-
-/* gamesSele section start */
-
-#gamesSele {
-    background: #191919
-}
-
-.selepartsection {
-    padding-bottom: 30px;
-
-}
-
-.selePart1 h3 {
-    text-align: end;
-    padding-top: 100px;
-    margin-bottom: 50px;
-    font-size: 38px;
-    font-weight: 600;
-    letter-spacing: 7%;
-    font-family: "Barlow Condensed", sans-serif;
-    color: #fff;
-    line-height: 60px;
-}
-
-.seleCard {
-    display: flex;
-    justify-content: space-between;
-
-
-}
-
-.seleCard1 {
-    color: #fff;
-    padding-bottom: 65px;
-    /* width: 25%; */
-}
-
-.seleCard1 h2 {
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: mixed;
-    font-family: "Barlow Condiensed", sans-serif;
-    padding-top: 24px;
-    padding-bottom: 30px;
-}
-
-.seleCard1 p {
-    padding-bottom: 24px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #666;
-    letter-spacing: 10%;
-}
-
-.seleCard span {
-    font-size: 16px;
-    font-weight: 400px;
-}
-
-.seleCard1 span:nth-of-type(1) {
-    background: red;
-    padding: 5px;
-}
-
-.seleCard1 span:nth-of-type(2) {
-    color: #666;
-    padding: 0 8px;
-}
-
-.gameCatagory h3 {
-    color: #fff;
-    padding-bottom: 34px;
-    font-size: 20px;
-    font-weight: 500px;
-    font-family: "Barlow Condiensed", sans-serif;
-}
-
-.favouriteGames {
-    height: 450px;
-    width: 100%;
-    background: #212121;
-    display: flex;
-    padding: 45px 100px;
-}
-
-.favouriteGametext {
-    width: 60%;
-}
-
-.favouriteGametext h3 {
-    font-size: 16px;
-    font-weight: 500;
-    color: #ff4655;
-    letter-spacing: 10%;
-    padding-bottom: 30px;
-}
-
-.favouriteGametext h2 {
-    font-size: 36px;
-    font-weight: 600;
-    color: #fff;
-    line-height: 50px;
-    font-family: "Barlow Condiensed", sans-serif;
-}
-
-.favouriteGametext p {
-    font-size: 16px;
-    font-weight: 600;
-    color: #666;
-    margin-top: 30px;
-    line-height: 30px;
-    letter-spacing: 10%;
-    width: 750px;
-}
-
-.favouriteGametext a {
-    display: flex;
-    justify-content: center;
-    height: 50px;
-    width: 128px;
-    background: #121212;
-    margin-top: 30px;
-    align-items: center;
-    color: #fff;
-    border-radius: 5px;
-    transition: 0.3s;
-}
-
-.favouriteGametext a:hover {
-    background: #3a3a3a;
-    color: #c4c4c4;
-}
-
-.favouriteGameimage {
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-
-.favouriteGameimage img:nth-of-type(1) {
-    position: absolute;
-    right: 130px;
-    top: 25px;
-    z-index: ;
-}
-
-.favouriteGameimage img:nth-of-type(2) {
-    position: absolute;
-    right: 100px;
-    top: 10px;
-    z-index: 2;
-}
-
-.favouriteGameimage img:nth-of-type(3) {
-    position: absolute;
-    right: 40px;
-    top: -5 px;
-    z-index: 3;
-}
-
-.favouriteGameimage img:nth-of-type(4) {
-    position: absolute;
-    right: 20px;
-    top: 10px;
-    z-index: 2;
-}
-
-.favouriteGameimage img:nth-of-type(5) {
-    position: absolute;
-    right: 0px;
-    top: 30px;
-    z-index: 1;
-}
-
-/* gamesSele section end */
-
-
-
-/* gamesSele section start */
-
-#gamingAccesories {
-    background: #121212;
-}
-
-.gamingProduct h2 {
-    padding-top: 100px;
-    padding-bottom: 110px;
-    color: #fff;
-    font-size: 38px;
-    font-weight: 600;
-    letter-spacing: 7%;
-    line-height: 50px;
-
-}
-
-.gameproduct {
-    display: flex;
-    justify-content: center;
-    column-gap: 25px;
-}
-
-.controller {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    background: #212121;
-    height: 465px;
-    width: 315px;
-    color: #fff;
-    margin-bottom: 90px;
-
-}
-
-.controller span {
-    padding-top: 30px;
-    font-size: 40px;
-    font-weight: 500;
-}
-
-.controller h3 {
-    font-size: 25px;
-    font-weight: 600;
-
-}
-
-.controller span a {
-    font-size: 16px;
-    font-weight: 600;
-    color: #ff4655;
-}
-
-#professetionalTeam {
-    background: #191919;
-}
-
-.professetionalTeamname {
-    padding-bottom: 75px;
-}
-
-.professetionalTeamname h2 {
-    text-align: end;
-    font-size: 38px;
-    font-weight: 600;
-    font-family: "Barlow Condiensed", sans-serif;
-    padding-top: 110px;
-    padding-bottom: 55px;
-    color: #fff;
-    line-height: 50px;
-}
-
-.professetionalSqude {
-    display: flex;
-    column-gap: 15px;
-}
-
-.professetionalTeamname1 {
-    display: flex;
-    flex-direction: column;
-    row-gap: 25px;
-}
-
-.fristSqude {
-    position: relative;
-    color: #fff;
-}
-
-.fristsqudeText {
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    background: #25242438;
-    width: 100%;
-    height: 50%;
-}
-
-.fristSqude h4 {
-    font-size: 30px;
-    font-weight: 600;
-    font-family: "Barlow Condiensed", sans-serif;
-    padding-bottom: 18px;
-    padding-top: 45px;
-    padding-left: 25px;
-}
-
-.fristSqude p {
-    font-size: 16px;
-    font-weight: 400;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-top: 15px;
-
-}
-
-.fristsqudeText a {
-    height: 32px;
-    width: 105px;
-    background: #ff4655;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 25px;
-}
-
-.secoundSqude {
-    position: relative;
-}
-
-
-.secoundsqudeText {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    background: #25242438;
-    width: 100%;
-    height: 30%;
-}
-
-.secoundsqudeText span {
-    position: absolute;
-    left: 25px;
-    bottom: 35px;
-    color: #fff;
-}
-
-.thirdSqude {
-    position: relative;
-}
-
-.thirdsqudeText {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    background: #25242438;
-    width: 100%;
-    height: 30%;
-}
-
-.thirdsqudeText span {
-    position: absolute;
-    left: 25px;
-    bottom: 35px;
-    color: #fff;
-}
-
-.forthSqude {
-    position: relative;
-}
-
-.forthsqudeText {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    background: #25242438;
-    width: 100%;
-    height: 30%;
-}
-
-.forthsqudeText span {
-    position: absolute;
-    left: 25px;
-    bottom: 35px;
-    color: #fff;
-}
-
-/* gamesSele section end */
-
-
-
-
-/*  question and answer section start */
-
-#questionanswerPart {
-    background: #121212;
-    padding-bottom: 120px;
-}
-
-.questionAnswerhedertext h3 {
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 50px;
-    padding: 65px 0 120px 0;
-    color: #fff;
-
-}
-
-/* .questionAnswerqusetiontext{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-} */
-
-.questionAnswer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /* border-bottom: 5px solid #d30e0e; */
-    /* column-gap: 120px; */
-}
-
-
-.questionAnswerqusetiontext1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* column-gap:  120px; */
-}
-
-.faq1 {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    width: 40%;
-
-}
-
-.faqnumber {
-    display: flex;
-
-}
-
-
-.faqnumber h4 {
-    font-size: 22px;
-    font-weight: 600;
-    /* margin-bottom: 40px; */
-}
-
-.faqtext p {
-    /* position: absolute; */
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    padding-left: 110px;
-    left: 3;
-    top: -30px;
-
-}
-
-.questionAnswerqusetiontext2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 170px;
-    /* border-bottom: 2px solid #ff0000; */
-    /* column-gap:  120px; */
-}
-
-.faq1 {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    width: 40%;
-
-}
-
-.faqnumber {
-    display: flex;
-
-}
-
-.faqnumber span {
-    padding: 15px 25px;
-    background: #ff4655;
-    margin-right: 40px;
-    font-size: 38px;
-    font-weight: 600;
-    color: #fff;
-    font-family: "Barlow Condiensed", sans-serif;
-}
-
-.faqnumber h4 {
-    font-size: 22px;
-    font-weight: 600;
-    color: #fff;
-    /* margin-bottom: 40px; */
-}
-
-.faqredText {
-    color: #ff4655;
-}
-
-.faqtext {
-    position: relative;
-}
-
-.faqtext p {
-    position: absolute;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    padding-left: 110px;
-    margin-top: -10px;
-    color: #666;
-}
-
-.main {
-    position: relative;
-}
-
-.main::after {
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    background: #666;
-    left: 0;
-    top: 50%;
-}
-
-.main::before {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 2px;
-    background: #666;
-    left: 50%;
-    top: 0%;
-}
-
-/*  question and answer section end */
-
-
-/* foodersection start */
-
-#fooderSection {
-    background: #191919;
-}
-
-.subscribeSection {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 30px;
-    background: #ff4655;
-}
-
-.subscribeSection h2 {
-    font-size: 40px;
-    font-weight: 600;
-    font-family: "Barlow Condiensed", sans-serif;
-    padding: 40px 0;
-    width: 60%;
-    color: #fff;
-}
-
-.subcribebutton {
-    width: 40%;
-    text-align: end;
-    position: relative;
-}
-
-.subcribebutton input {
-    width: 410px;
-    height: 40px;
-    background: #fff;
-    border-radius: 65px;
-    border: none;
-}
-
-.subcribebutton button {
-    position: absolute;
-    height: 40px;
-    width: 117px;
-    border-radius: 65px;
-    right: 0px;
-    top: 0;
-    /* outline: none; */
-    border: none;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: "Barlow Condiensed", sans-serif;
-    background: #191919;
-    color: #fff;
-}
-
-.fooderlastSection {
-    display: flex;
-
-    padding-top: 40px;
-}
-
-.fooderLeft {
-    width: 40%;
-}
-
-.foodercenterLeft {
-    width: 20%;
-}
-
-.foodercenterRight {
-    width: 20%;
-}
-
-.fooderRight {
-    width: 20%;
-}
-
-.fooderlastSection img {
-    padding-bottom: 40px;
-}
-
-.fooderLeft p {
-    color: #666;
-    padding-bottom: 60px;
-
-}
-
-.fooderIcons i {
-    font-size: 50px;
-    color: #fff;
-    padding: 0px;
-}
-.foodercenterLeft{
-    padding-left: 70px;
-}
-.foodercenterLeft ul{
-    font-size: 25px;
-    font-weight: 600;
-    font-family: "Barlow Condiensed", sans-serif;
-    color: #fff;
-    padding-bottom: 20px;
-}
-.foodercenterLeftsection ul{
-    font-size: 16px;
-    font-weight: 400;
-    
-}
-.foodercenterLeftsection ul li a{
-    padding-bottom: 40px;
-    color: #fff;
-}
-
-
-
-.foodercenterRight{
-    padding-left: 70px;
-}
-.foodercenterRight ul{
-    font-size: 25px;
-    font-weight: 600;
-    font-family: "Barlow Condiensed", sans-serif;
-    color: #fff;
-    padding-bottom: 20px;
-}
-.foodercenterRightsection ul{
-    font-size: 16px;
-    font-weight: 400;
-    
-}
-.foodercenterRightsection ul li a{
-    color: #fff;
-    padding-bottom: 40px;
-}
-
-
-
-
-/* foodersection end */
+    /* all common css start */
+    * {
+        padding: 0;
+        margin: 0;
+        outline: none;
+        box-sizing: border-box;
+        font-family: "Oswald", sans-serif;
+
+    }
+
+    .container {
+        width: 1320px;
+        margin: 0 auto;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        margin: 0;
+        padding: 0;
+        line-height: 0.8;
+    }
+
+    ul,
+    li {
+        list-style-type: none;
+    }
+
+    a {
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* all common css end */
+
+
+
+
+    /* headerPart Start */
+
+    #headerPart {
+        padding: 50px 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgb(49, 49, 49);
+        z-index: 2;
+    }
+
+    .logowithcontain {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        width: 15%;
+    }
+
+    .manu {
+        width: 70%;
+    }
+
+    .icons {
+        width: 15%;
+        color: #fff;
+        font-size: 25px;
+        display: flex;
+        column-gap: 30px;
+    }
+
+    .exit {
+        display: flex;
+        column-gap: 5px;
+    }
+
+    .exit span {
+        font-size: 15px;
+        font-weight: 400px;
+    }
+
+    .logowithcontain {
+        display: flex;
+        align-items: center;
+    }
+
+    .manu ul {
+        display: flex;
+        column-gap: 35px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .manu ul a {
+        color: #ddd;
+        position: relative;
+    }
+
+    .manu ul a::before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 3px;
+        background: red;
+        bottom: 0;
+        left: 0px;
+        border-radius: 5px;
+        opacity: 0;
+        transition: 0.4s;
+    }
+
+    .manu ul a:hover::before {
+        color: green;
+        background: red;
+        opacity: 1;
+
+    }
+
+    /* headerPart End */
+
+
+    /* bannerPart Start */
+    #bannerPart {
+        padding-top: 340px;
+        padding-bottom: 100px;
+        background: url(../images/banner\ 2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bannerContain {
+        color: #fff;
+        /* margin-top  : 280px; */
+        /* margin-bottom:  ; */
+    }
+
+    .bannerContain h2 {
+        font-size: 27px;
+        font-weight: 400;
+    }
+
+    .bannerContain h1 {
+        font-size: 60px;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-bottom: 140px;
+        position: relative;
+    }
+
+    .bannerContain h1::after {
+        content: "";
+        position: absolute;
+        width: 90px;
+        height: 4px;
+        background: #fff;
+        top: 47px;
+        left: 520px;
+    }
+
+    .bannerContain a {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 10px 15px;
+        color: #000;
+        background: #ffffff;
+        margin-bottom: 300px;
+    }
+
+    .bannerIcons {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        font-size: 36px;
+    }
+
+    .facebook {
+        position: relative;
+    }
+
+    .facebook span {
+        position: absolute;
+        top: 8px;
+        left: -10px;
+        font-size: 20px;
+        opacity: 0;
+        transition: 0.4s;
+    }
+
+    .facebook span:hover {
+        opacity: 1;
+        position: absolute;
+        top: -25px;
+        left: -10px;
+        color: #ff0000;
+        /* background: green; */
+    }
+
+    .linkedin {
+        position: relative;
+    }
+
+    .linkedin span {
+        position: absolute;
+        top: -25px;
+        left: -5px;
+        font-size: 20px;
+        opacity: 0;
+        transition: 0.4s;
+    }
+
+    .twitter {
+        position: relative;
+    }
+
+    .twitter span {
+        position: absolute;
+        top: -25px;
+        left: -5px;
+        font-size: 20px;
+        opacity: 0;
+        transition: 0.4s;
+    }
+
+    .instragram {
+        position: relative;
+    }
+
+    .instragram span {
+        position: absolute;
+        top: -25px;
+        left: -5px;
+        font-size: 20px;
+        opacity: 0;
+        transition: 0.4s;
+    }
+
+    /* bannerPart End */
+
+
+
+    /* about Section Start */
+
+    #aboutSection {
+        background: #121212;
+
+    }
+
+    .mainContain {
+        padding: 40px 0px 80px;
+    }
+
+    .contain {}
+
+    .aboutUs {
+        font-size: 38px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .aboutUs h2 {
+        line-height: 65px;
+    }
+
+    .image {
+        display: flex;
+        column-gap: 40px;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+
+    .text {
+        color: #fff;
+    }
+
+    .text h2 {
+        font-size: 27px;
+        font-weight: 600;
+    }
+
+    .text ul li {
+        font-size: 18px;
+        font-weight: 400;
+        /* font-family: Barlow Condensed; */
+        line-height: 30px;
+    }
+
+    .text ul {
+        margin: 18px 0;
+    }
+
+    .text p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .text a {
+        padding: 8px 12px;
+        background: #fff;
+        color: #000;
+        margin-top: 30px;
+        border-radius: 5px;
+    }
+
+    .review {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        column-gap: 20px;
+    }
+
+    .review1 h3 {
+        font-size: 60px;
+        font-weight: 600;
+        display: inline-block;
+
+    }
+
+    .review1 p {
+        font-size: 18px;
+        font-weight: 300px;
+        margin-top: 35px;
+    }
+
+    .review1 {
+        color: #fff;
+        background: #212121;
+        padding: 45px 100px;
+        border-radius: 0 60px 0 60px;
+    }
+
+    .review2 h3 {
+        font-size: 60px;
+        font-weight: 600;
+        display: inline-block;
+
+    }
+
+    .review2 p {
+        font-size: 18px;
+        font-weight: 300px;
+        margin-top: 35px;
+    }
+
+    .review2 {
+        color: #fff;
+        background: #212121;
+        padding: 45px 100px;
+        border-radius: 0 60px 0 60px;
+    }
+
+    .review3 h3 {
+        font-size: 60px;
+        font-weight: 600;
+        display: inline-block;
+
+    }
+
+    .review3 p {
+        font-size: 18px;
+        font-weight: 300px;
+        margin-top: 35px;
+    }
+
+    .review3 {
+        color: #fff;
+        background: #212121;
+        padding: 45px 100px;
+        border-radius: 0 60px 0 60px;
+    }
+
+    .review4 h3 {
+        font-size: 60px;
+        font-weight: 600;
+        display: inline-block;
+
+    }
+
+    .review4 p {
+        font-size: 18px;
+        font-weight: 300px;
+        margin-top: 35px;
+    }
+
+    .review4 {
+        color: #fff;
+        background: #212121;
+        padding: 45px 100px;
+        border-radius: 0 60px 0 60px;
+    }
+
+    /* about Section End */
+
+
+    /* games section start */
+    #gamesPart {
+        background: #141414;
+    }
+
+    .gamesFlex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 70px;
+    }
+
+    .gamesLeft {
+        position: relative;
+        width: 47%;
+
+    }
+
+    .leftBg {
+        position: absolute;
+        clip-path: polygon(20% 0%, 98% 0%, 80% 100%, 2% 100%);
+        background: red;
+        height: 392px;
+        width: 658px;
+        top: -47px;
+        left: 44px;
+    }
+
+    .gamesLeft img {
+        position: absolute;
+        top: -219px;
+        left: 135px;
+        z-index: 1;
+    }
+
+    .gamesRight {
+        width: 47%;
+        margin-top: 125px;
+        text-align: end;
+    }
+
+    .arrewbutton {
+        width: 6%;
+        position: relative;
+    }
+
+    .rightbtn a {
+        position: absolute;
+        /* background: red; */
+        border: 2px solid #fff;
+        padding: 15px;
+        border-radius: 50%;
+        color: #fff;
+        top: 275px;
+        right: 50;
+    }
+
+    .rightbtn a:hover {
+        color: #000;
+        background: #666;
+    }
+
+    .leftbtn a {
+        position: absolute;
+        /* background: red; */
+        border: 2px solid #fff;
+        padding: 15px;
+        border-radius: 50%;
+        color: #fff;
+        top: 205px;
+        right: 50 px;
+    }
+
+    .leftbtn a:hover {
+        color: #000;
+        background: #666;
+    }
+
+    .gamesRight img {
+        opacity: 0.7;
+    }
+
+    .gamesRightpart h3 {
+        margin-bottom: 90px;
+        color: #fff;
+        line-height: 50px;
+        font-size: 27px;
+        letter-spacing: 7%;
+        font-family: "Barlow Condensed", sans-serif;
+    }
+
+    /* games section end */
+
+
+    /* livesscore boardpart start */
+
+    #livescorePart {
+        background: #0c0c0c;
+    }
+
+    .boardPart {
+        /* display: flex; */
+        padding: 100px 0 90px 0;
+    }
+
+    .boardText h3 {
+        color: #fff;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: 7%;
+    }
+
+    .liveGames {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+
+    }
+
+    .liveGames1 img {
+        transition: 0.4s;
+
+    }
+
+    .liveGames img:hover {
+        transform: scale(1.1);
+    }
+
+    .previous h2 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 9%;
+        margin-top: 65px;
+        padding-bottom: 50px;
+        color: #fff;
+        font-family: "Barlow Condensed", sans-serif;
+    }
+
+    .teamName1 {
+        color: #fff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* flex-direction: column; */
+        row-gap: 30px;
+    }
+
+    .teamDelta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #212121;
+        clip-path: polygon(0% 0%, 100% 0%, 88% 100%, 0% 100%);
+        width: 430px;
+        height: 115px;
+        padding-right: 60px;
+        /* padding: 0 20px; */
+    }
+
+    .teamDelta h3 {
+        font-size: 32px;
+        font-weight: 500;
+        font-family: "Barlow Condensed", sans-serif;
+    }
+
+    .scorePoint p {
+        font-size: 40px;
+        font-weight: 500px;
+    }
+
+
+    .teamAlpha {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #212121;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 12% 100%);
+        width: 430px;
+        height: 115px;
+        padding-left: 60px;
+    }
+
+    .teamAlpha h3 {
+        font-size: 32px;
+        font-weight: 500;
+        font-family: "Barlow Condensed", sans-serif;
+    }
+
+    /* .teamDevile{
+        display: flex;
+        align-items: center;
+        background: red;
+        width: 320px;
+    } */
+
+
+    .teamName2 {
+        color: #fff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 60PX;
+        /* flex-direction: column; */
+        row-gap: 30px;
+    }
+
+    .teamDevile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #212121;
+        clip-path: polygon(0% 0%, 100% 0%, 88% 100%, 0% 100%);
+        width: 430px;
+        height: 115px;
+        padding-right: 60px;
+        /* padding: 0 20px; */
+    }
+
+    .teamDevile h3 {
+        font-size: 32px;
+        font-weight: 500;
+        font-family: "Barlow Condensed", sans-serif;
+    }
+
+    .scorePoint p {
+        font-size: 40px;
+        font-weight: 500px;
+    }
+
+
+    .teamNinja {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #212121;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 12% 100%);
+        width: 430px;
+        height: 115px;
+        padding-left: 60px;
+    }
+
+    .teamNinja h3 {
+        font-size: 32px;
+        font-weight: 500;
+        font-family: "Barlow Condensed", sans-serif;
+    }
+
+    /* gamesSele section start */
+
+    #gamesSele {
+        background: #191919
+    }
+
+    .selepartsection {
+        padding-bottom: 30px;
+
+    }
+
+    .selePart1 h3 {
+        text-align: end;
+        padding-top: 100px;
+        margin-bottom: 50px;
+        font-size: 38px;
+        font-weight: 600;
+        letter-spacing: 7%;
+        font-family: "Barlow Condensed", sans-serif;
+        color: #fff;
+        line-height: 60px;
+    }
+
+    .seleCard {
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    .seleCard1 {
+        color: #fff;
+        padding-bottom: 65px;
+        /* width: 25%; */
+        transition: 0.4s;
+    }
+
+    .seleCard1:hover {
+        transform: scale(1.1);
+    }
+
+    .seleCard1 h2 {
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: mixed;
+        font-family: "Barlow Condiensed", sans-serif;
+        padding-top: 24px;
+        padding-bottom: 30px;
+    }
+
+    .seleCard1 p {
+        padding-bottom: 24px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #666;
+        letter-spacing: 10%;
+    }
+
+    .seleCard span {
+        font-size: 16px;
+        font-weight: 400px;
+    }
+
+    .seleCard1 span:nth-of-type(1) {
+        background: red;
+        padding: 5px;
+    }
+
+    .seleCard1 span:nth-of-type(2) {
+        color: #666;
+        padding: 0 8px;
+    }
+
+    .gameCatagory h3 {
+        color: #fff;
+        padding-bottom: 34px;
+        font-size: 20px;
+        font-weight: 500px;
+        font-family: "Barlow Condiensed", sans-serif;
+    }
+
+    .favouriteGames {
+        height: 450px;
+        width: 100%;
+        background: #212121;
+        display: flex;
+        padding: 45px 100px;
+    }
+
+    .favouriteGametext {
+        width: 60%;
+    }
+
+    .favouriteGametext h3 {
+        font-size: 16px;
+        font-weight: 500;
+        color: #ff4655;
+        letter-spacing: 10%;
+        padding-bottom: 30px;
+    }
+
+    .favouriteGametext h2 {
+        font-size: 36px;
+        font-weight: 600;
+        color: #fff;
+        line-height: 50px;
+        font-family: "Barlow Condiensed", sans-serif;
+    }
+
+    .favouriteGametext p {
+        font-size: 16px;
+        font-weight: 600;
+        color: #666;
+        margin-top: 30px;
+        line-height: 30px;
+        letter-spacing: 10%;
+        width: 750px;
+    }
+
+    .favouriteGametext a {
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        width: 128px;
+        background: #121212;
+        margin-top: 30px;
+        align-items: center;
+        color: #fff;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    .favouriteGametext a:hover {
+        background: #3a3a3a;
+        color: #c4c4c4;
+    }
+
+    .favouriteGameimage {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .favouriteGameimage img:nth-of-type(1) {
+        position: absolute;
+        right: 130px;
+        top: 25px;
+        z-index: ;
+    }
+
+    .favouriteGameimage img:nth-of-type(2) {
+        position: absolute;
+        right: 100px;
+        top: 10px;
+        z-index: 2;
+    }
+
+    .favouriteGameimage img:nth-of-type(3) {
+        position: absolute;
+        right: 40px;
+        top: -5 px;
+        z-index: 3;
+    }
+
+    .favouriteGameimage img:nth-of-type(4) {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        z-index: 2;
+    }
+
+    .favouriteGameimage img:nth-of-type(5) {
+        position: absolute;
+        right: 0px;
+        top: 30px;
+        z-index: 1;
+    }
+
+    /* gamesSele section end */
+
+
+
+    /* gamesSele section start */
+
+    #gamingAccesories {
+        background: #121212;
+    }
+
+    .gamingProduct h2 {
+        padding-top: 100px;
+        padding-bottom: 110px;
+        color: #fff;
+        font-size: 38px;
+        font-weight: 600;
+        letter-spacing: 7%;
+        line-height: 50px;
+
+    }
+
+    .gameproduct {
+        display: flex;
+        justify-content: center;
+        column-gap: 25px;
+    }
+
+    .controller {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        background: #212121;
+        height: 465px;
+        width: 315px;
+        color: #fff;
+        margin-bottom: 90px;
+
+    }
+
+    .controller span {
+        padding-top: 30px;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .controller h3 {
+        font-size: 25px;
+        font-weight: 600;
+
+    }
+
+    .controller span a {
+        font-size: 16px;
+        font-weight: 600;
+        color: #ff4655;
+    }
+
+    .productside {
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        position: relative;
+    }
+
+    .leftside {
+        border: 2px solid #fff;
+        padding: 20px;
+        background: red;
+        border-radius: 50%;
+        position: absolute;
+        left: -40px;
+        top: 200px;
+    }
+
+    .rightside {
+        border: 2px solid #fff;
+        padding: 20px;
+        background: red;
+        border-radius: 50%;
+        position: absolute;
+        right: -40px;
+        top: 200px;
+    }
+
+    #professetionalTeam {
+        background: #191919;
+    }
+
+    .professetionalTeamname {
+        padding-bottom: 75px;
+    }
+
+    .professetionalTeamname h2 {
+        text-align: end;
+        font-size: 38px;
+        font-weight: 600;
+        font-family: "Barlow Condiensed", sans-serif;
+        padding-top: 110px;
+        padding-bottom: 55px;
+        color: #fff;
+        line-height: 50px;
+    }
+
+    .professetionalSqude {
+        display: flex;
+        column-gap: 15px;
+    }
+
+    .professetionalTeamname1 {
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    .fristSqude {
+        position: relative;
+        color: #fff;
+    }
+
+    .fristsqudeText {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        background: #25242438;
+        width: 100%;
+        height: 50%;
+    }
+
+    .fristSqude h4 {
+        font-size: 30px;
+        font-weight: 600;
+        font-family: "Barlow Condiensed", sans-serif;
+        padding-bottom: 18px;
+        padding-top: 45px;
+        padding-left: 25px;
+    }
+
+    .fristSqude p {
+        font-size: 16px;
+        font-weight: 400;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-top: 15px;
+
+    }
+
+    .fristsqudeText a {
+        height: 32px;
+        width: 105px;
+        background: #ff4655;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25px;
+    }
+
+    .secoundSqude {
+        position: relative;
+    }
+
+
+    .secoundsqudeText {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: #25242438;
+        width: 100%;
+        height: 30%;
+    }
+
+    .secoundsqudeText span {
+        position: absolute;
+        left: 25px;
+        bottom: 35px;
+        color: #fff;
+    }
+
+    .thirdSqude {
+        position: relative;
+    }
+
+    .thirdsqudeText {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: #25242438;
+        width: 100%;
+        height: 30%;
+    }
+
+    .thirdsqudeText span {
+        position: absolute;
+        left: 25px;
+        bottom: 35px;
+        color: #fff;
+    }
+
+    .forthSqude {
+        position: relative;
+    }
+
+    .forthsqudeText {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: #25242438;
+        width: 100%;
+        height: 30%;
+    }
+
+    .forthsqudeText span {
+        position: absolute;
+        left: 25px;
+        bottom: 35px;
+        color: #fff;
+    }
+
+    /* gamesSele section end */
+
+
+
+
+    /*  question and answer section start */
+
+    #questionanswerPart {
+        background: #121212;
+        padding-bottom: 120px;
+    }
+
+    .questionAnswerhedertext h3 {
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 50px;
+        padding: 65px 0 120px 0;
+        color: #fff;
+
+    }
+
+    /* .questionAnswerqusetiontext{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } */
+
+    .questionAnswer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* border-bottom: 5px solid #d30e0e; */
+        /* column-gap: 120px; */
+    }
+
+
+    .questionAnswerqusetiontext1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* column-gap:  120px; */
+    }
+
+    .faq1 {
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        width: 40%;
+
+    }
+
+    .faqnumber {
+        display: flex;
+
+    }
+
+
+    .faqnumber h4 {
+        font-size: 22px;
+        font-weight: 600;
+        /* margin-bottom: 40px; */
+    }
+
+    .faqtext p {
+        /* position: absolute; */
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        padding-left: 110px;
+        left: 3;
+        top: -30px;
+
+    }
+
+    .questionAnswerqusetiontext2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 170px;
+        /* border-bottom: 2px solid #ff0000; */
+        /* column-gap:  120px; */
+    }
+
+    .faq1 {
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        width: 40%;
+
+    }
+
+    .faqnumber {
+        display: flex;
+
+    }
+
+    .faqnumber span {
+        padding: 15px 25px;
+        background: #ff4655;
+        margin-right: 40px;
+        font-size: 38px;
+        font-weight: 600;
+        color: #fff;
+        font-family: "Barlow Condiensed", sans-serif;
+    }
+
+    .faqnumber h4 {
+        font-size: 22px;
+        font-weight: 600;
+        color: #fff;
+        /* margin-bottom: 40px; */
+    }
+
+    .faqredText {
+        color: #ff4655;
+    }
+
+    .faqtext {
+        position: relative;
+    }
+
+    .faqtext p {
+        position: absolute;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        padding-left: 110px;
+        margin-top: -10px;
+        color: #666;
+    }
+
+    .main {
+        position: relative;
+    }
+
+    .main::after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        background: #666;
+        left: 0;
+        top: 50%;
+    }
+
+    .main::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 2px;
+        background: #666;
+        left: 50%;
+        top: 0%;
+    }
+
+    /*  question and answer section end */
+
+
+    /* foodersection start */
+
+    #fooderSection {
+        background: #191919;
+    }
+
+    .oneThe {
+        padding-bottom: 130px;
+    }
+
+    .subscribeSection {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+        background: #ff4655;
+    }
+
+    .subscribeSection h2 {
+        font-size: 40px;
+        font-weight: 600;
+        font-family: "Barlow Condiensed", sans-serif;
+        padding: 40px 0;
+        width: 60%;
+        color: #fff;
+    }
+
+    .subcribebutton {
+        width: 40%;
+        /* text-align:center; */
+        position: relative;
+    }
+
+    .subcribebutton input {
+        position: absolute;
+        top: 0;
+        right: 80px;
+    }
+
+    .subcribebutton input {
+        padding: 10px 20px;
+        background: #fff;
+        border-radius: 65px;
+        border: none;
+    }
+
+    .subcribebutton button {
+        position: absolute;
+        height: 40px;
+        width: 117px;
+        border-radius: 65px;
+        right: 0px;
+        top: 0;
+        /* outline: none; */
+        border: none;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: "Barlow Condiensed", sans-serif;
+        background: #191919;
+        color: #fff;
+    }
+
+    .fooderlastSection {
+        display: flex;
+        padding-top: 40px;
+        border-bottom: 2px solid #666;
+    }
+
+    .fooderLeft {
+        width: 40%;
+        position: relative;
+    }
+
+    .foodercenterLeft {
+        width: 20%;
+    }
+
+    .foodercenterRight {
+        width: 20%;
+    }
+
+    .fooderRight {
+        width: 20%;
+    }
+
+    .fooderlastSection img {
+        padding-bottom: 40px;
+    }
+
+    .fooderLeft p {
+        color: #666;
+        padding-bottom: 60px;
+
+    }
+
+    .fooderIcons {
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+    }
+
+    .fooderIcons i {
+        font-size: 50px;
+        color: #fff;
+        padding: 0px;
+    }
+
+    .foodercenterLeft {
+        padding-left: 70px;
+    }
+
+    .foodercenterLeft ul {
+        font-size: 25px;
+        font-weight: 600;
+        font-family: "Barlow Condiensed", sans-serif;
+        color: #fff;
+        padding-bottom: 20px;
+    }
+
+    .foodercenterLeftsection ul {
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+
+    .foodercenterLeftsection ul li a {
+        padding-bottom: 40px;
+        color: #666;
+    }
+
+
+
+    .foodercenterRight {
+        padding-left: 70px;
+    }
+
+    .foodercenterRight ul {
+        font-size: 25px;
+        font-weight: 600;
+        font-family: "Barlow Condiensed", sans-serif;
+        color: #fff;
+        padding-bottom: 20px;
+    }
+
+    .foodercenterRightsection ul {
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+
+    .foodercenterRightsection ul li a {
+        color: #666;
+        padding-bottom: 40px;
+    }
+
+
+    .fooderRight ul {
+        font-size: 25px;
+        font-weight: 600;
+        font-family: "Barlow Condiensed", sans-serif;
+        color: #fff;
+        padding-bottom: 20px;
+    }
+
+    .galaryimage {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+    }
+
+    .galaryimage img {
+        width: 102px;
+        height: 102px;
+        padding-bottom: 0;
+    }
+
+    .last h4 {
+        font-size: 26px;
+        font-weight: 400px;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+
+    }
